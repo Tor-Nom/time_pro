@@ -1,4 +1,4 @@
-package service
+package time_pro
 
 import "time"
 

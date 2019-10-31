@@ -1,11 +1,12 @@
 package main
 
 import (
-	"github.com/Tor-Nom/time_pro"
+	"fmt"
+	"github.com/Tor-Nom/time_pro/service"
 )
 
 func main() {
 
-	endTime := "2019-10-31 00:00:00"
-	time_pro.GetTime(endTime)
+	endTime := "2019-10-11 00:00:00"
+	fmt.Println(service.GetTime(endTime))
 }

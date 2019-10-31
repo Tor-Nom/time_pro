@@ -7,6 +7,9 @@ import (
 
 func main() {
 
-	endTime := "2019-10-11 00:00:00"
-	fmt.Println(service.GetTime(endTime))
+	time := "2019-10-11 00:00:00"
+
+	beginTime, endTime := service.GetTime(time)
+	fmt.Println("beginTime => ", beginTime)
+	fmt.Println("endTime => ", endTime)
 }

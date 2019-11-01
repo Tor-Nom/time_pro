@@ -3,8 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="39e7f07c-dffa-44c7-a227-7bdd77fd6b80" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/main.go" beforeDir="false" afterPath="$PROJECT_DIR$/example/main.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/service/time_pro.go" beforeDir="false" afterPath="$PROJECT_DIR$/time_pro.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/time_pro.go" beforeDir="false" afterPath="$PROJECT_DIR$/time_pro.go" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -26,11 +25,11 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/time_pro.go">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="75">
-              <caret line="5" column="28" lean-forward="true" selection-start-line="5" selection-start-column="28" selection-end-line="5" selection-end-column="28" />
+            <state relative-caret-position="467">
+              <caret line="38" lean-forward="true" selection-start-line="38" selection-end-line="38" />
             </state>
           </provider>
         </entry>
@@ -44,11 +43,11 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/example/main.go">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="210">
-              <caret line="14" column="1" lean-forward="true" selection-start-line="14" selection-start-column="1" selection-end-line="14" selection-end-column="1" />
+            <state relative-caret-position="165">
+              <caret line="11" column="42" selection-start-line="11" selection-start-column="35" selection-end-line="11" selection-end-column="42" />
               <folding>
                 <element signature="e#14#70#0" expanded="true" />
               </folding>
@@ -73,12 +72,12 @@
     <option name="CHANGED_PATHS">
       <list>
         <option value="$PROJECT_DIR$/README.md" />
-        <option value="$PROJECT_DIR$/time_pro.go" />
         <option value="$PROJECT_DIR$/time_pro/time_pro.go" />
         <option value="$PROJECT_DIR$/go.mod" />
         <option value="$PROJECT_DIR$/main.go" />
         <option value="$PROJECT_DIR$/service/main.go" />
         <option value="$PROJECT_DIR$/example/main.go" />
+        <option value="$PROJECT_DIR$/time_pro.go" />
       </list>
     </option>
   </component>
@@ -92,11 +91,11 @@
       </list>
     </option>
   </component>
-  <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="492" />
-    <option name="y" value="-777" />
-    <option name="width" value="1241" />
-    <option name="height" value="777" />
+  <component name="ProjectFrameBounds">
+    <option name="x" value="-148" />
+    <option name="y" value="-1057" />
+    <option name="width" value="1881" />
+    <option name="height" value="1057" />
   </component>
   <component name="ProjectLevelVcsManager">
     <ConfirmationsSetting value="2" id="Add" />
@@ -141,12 +140,20 @@
     <property name="go.import.settings.migrated" value="true" />
     <property name="go.sdk.automatically.set" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="node.js.detected.package.eslint" value="true" />
+    <property name="node.js.detected.package.tslint" value="true" />
+    <property name="node.js.path.for.package.eslint" value="project" />
+    <property name="node.js.path.for.package.tslint" value="project" />
+    <property name="node.js.selected.package.eslint" value="(autodetect)" />
+    <property name="node.js.selected.package.tslint" value="(autodetect)" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="settings.editor.selected.configurable" value="go.vgo" />
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$" />
+      <recent name="$PROJECT_DIR$/service" />
       <recent name="$PROJECT_DIR$/time_pro" />
     </key>
   </component>
@@ -196,9 +203,9 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="-187" y="-1057" width="1920" height="1057" extended-state="6" />
+    <frame x="-148" y="-1057" width="1881" height="1057" extended-state="0" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.16080937" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.16421968" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -245,7 +252,9 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="时间计算" />
-    <option name="LAST_COMMIT_MESSAGE" value="时间计算" />
+    <MESSAGE value="结构调整" />
+    <MESSAGE value="续保起始时间应该为N+1，起始时间加上一天" />
+    <option name="LAST_COMMIT_MESSAGE" value="续保起始时间应该为N+1，起始时间加上一天" />
   </component>
   <component name="VgoProject">
     <integration-enabled>true</integration-enabled>
@@ -269,20 +278,20 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/time_pro.go">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="75">
-          <caret line="5" column="28" lean-forward="true" selection-start-line="5" selection-start-column="28" selection-end-line="5" selection-end-column="28" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/example/main.go">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="210">
-          <caret line="14" column="1" lean-forward="true" selection-start-line="14" selection-start-column="1" selection-end-line="14" selection-end-column="1" />
+        <state relative-caret-position="165">
+          <caret line="11" column="42" selection-start-line="11" selection-start-column="35" selection-end-line="11" selection-end-column="42" />
           <folding>
             <element signature="e#14#70#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/time_pro.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="467">
+          <caret line="38" lean-forward="true" selection-start-line="38" selection-end-line="38" />
         </state>
       </provider>
     </entry>

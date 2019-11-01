@@ -26,7 +26,8 @@ func GetTime(endTime string) (string, string) {
 	}
 
 	//获取开始时间
-	beginDate := time.Unix(beginStamp, 0).Format("2006-01-02")
+	beginDate := time.Unix(beginStamp, 0).AddDate(0, 0, 1).Format("2006-01-02")
+
 	beginDateRe := beginDate + " 00:00:00"
 
 	//截止日期 +1 year
